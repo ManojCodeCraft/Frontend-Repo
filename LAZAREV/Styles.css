@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#fff;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    background-color:#111;
+    display: flex;
+    align-items: center;
+    width:100%;
+    padding: 2vw 10.4vw;
+    justify-content: space-between;
+
+}
+.nav-part2{
+    display: flex;
+    gap: 2vw;
+}
+.nav-part2 h4{
+    font-size: 0.76vw;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+nav:hover #nav-bottom{
+    height: 150%;
+    bottom: -150%;
+}
+#nav-bottom{
+    /* background-color: red; */
+    height: 0%;
+    width: 79%;
+    position: absolute;
+    border-bottom: 2px solid #dadada;
+    bottom: 0%;
+    transition: all ease 0.65s;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2vw 15vw;
+    padding-left:18.2vw;
+
+    
+}
+
+.bottom-div{
+    margin-top:2vw;
+
+}
+.bottom-div h5{
+    overflow: hidden;
+    margin-bottom:0.4vw
+}
+.bottom-div h5 span{
+   font-weight:500;
+   font-size:0.75vw;
+   display:inline-block;  
+   opacity:0;
+}
+nav button{
+    background-color:#0BA34E;
+    display:flex;
+    align-items:center;
+    padding:12px 12px;
+    font-size:0.85vw;
+    text-transform:uppercase;
+    font-weight:700;
+    border-radius:50px;
+    border:none;
+
+}
+nav button svg{
+    margin-left:0.85vw;
+    height:1.6vw;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#page1 h1{
+    font-size:8.5vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 8.5vw;
+}
+#page1 svg{
+    height: 6vw;
+    border-radius: 50%;
+    background-color: #0DA34E;
+}
+#page1 p{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 3vh;
+}
+#page1-something{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page1-something h4{
+    font-weight: 400;
+    font-size: 1vw;
+    margin-top: 0.5vw;
+    text-transform: lowercase;
+    padding: 5px 10px;
+    border: 1px solid #848282 ;
+    border-radius: 50px;
+}
+#page1-something h4:nth-last-child(2){
+    border: none;
+    padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
