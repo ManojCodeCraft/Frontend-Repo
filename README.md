@@ -9,7 +9,6 @@ This repository showcases my journey in **Frontend Development**, where I delve 
 - **ESWAR DJ SOUNDS**: A dynamic website for a DJ service provider, featuring event galleries and booking forms.
 - **LAZAREV**: A modern web design project focusing on UI/UX principles.
 - **PhonePe Clone**: A frontend replica of the popular digital payment platform, emphasizing responsive design and user experience.
-- **My Portfolio**: A personal portfolio website highlighting my skills, projects, and contact information.
 
 ---
 
